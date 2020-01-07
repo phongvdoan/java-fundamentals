@@ -15,7 +15,7 @@ public class Main {
     System.out.println("I own " + turtleCount + " " + pluralize("turtle", turtleCount) + ".");
 
     flipNHeads(1);
-    clock();
+    clockTwo();
   }
 
   public static String pluralize(String word, int number) {
@@ -61,11 +61,12 @@ public class Main {
   }
 
   public static void clockTwo() {
-    while (true) {
         LocalDateTime now = LocalDateTime.now();
-        String time = now.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
+    while (true) {
         LocalDateTime then = LocalDateTime.now();
+        String time = then.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
           if(now.getSecond() != then.getSecond()) {
+            now = then;
             System.out.println(time);
           }
       }
