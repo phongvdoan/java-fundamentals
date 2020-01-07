@@ -15,7 +15,7 @@ public class Main {
     System.out.println("I own " + turtleCount + " " + pluralize("turtle", turtleCount) + ".");
 
     flipNHeads(1);
-    clockTwo();
+    clock();
   }
 
   public static String pluralize(String word, int number) {
@@ -47,7 +47,9 @@ public class Main {
   // https:/c/stackoverflow.com/questions/20608971/showing-the-time-every-second
   // https://www.journaldev.com/1020/thread-sleep-java
   // https://stackoverflow.com/questions/18025337/fixing-error-unreported-exception-interruptedexception
-  public static void clock() {
+
+  // Thread.sleep is not really 1000ms, take account for running lines
+  public static void clockAlt() {
     try {
       while (true) {
         LocalDateTime now = LocalDateTime.now();
@@ -60,7 +62,7 @@ public class Main {
     }
   }
 
-  public static void clockTwo() {
+  public static void clock() {
         LocalDateTime now = LocalDateTime.now();
     while (true) {
         LocalDateTime then = LocalDateTime.now();
