@@ -29,18 +29,19 @@ public class Main {
 
   public static void flipNHeads(int num) {
     int counter = 0;
-    int headsCounter = 0;
-    while (headsCounter != num) {
+    int headsInARow = 0;
+    while (headsInARow != num) {
       double rand = Math.random();
       counter++;
       if (rand < 0.5) {
         System.out.println("tails");
+        headsInARow = 0;
       } else {
-        headsCounter++;
+        headsInARow++;
         System.out.println("heads");
       }
     }
-    System.out.println("It took " + counter + " flips to flip " + headsCounter + " head in a row.");
+    System.out.println("It took " + counter + " flips to flip " + headsInARow + " head in a row.");
   }
 
   // https:/c/stackoverflow.com/questions/20608971/showing-the-time-every-second
