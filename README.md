@@ -15,7 +15,7 @@ First several labs for Java 401
 
          ├── pluralize(String word, int quantity)
 
-         └── flipNHeads(int num)
+         ├── flipNHeads(int num)
 
          └── clock()
 
