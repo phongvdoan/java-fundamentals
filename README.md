@@ -5,7 +5,6 @@ First several labs for Java 401
 [pluralize, flipNHeads, and clock](basic/)
 ```
 
-├── README.md
 
 └── basics
 
@@ -18,5 +17,30 @@ First several labs for Java 401
          ├── flipNHeads(int num)
 
          └── clock()
+
+```
+
+### Lab 02 - Arrays, for loops, testing
+[roll, containsDuplicates, calculatingAverages, arrayWithLowestAverage](basiclibrary/src/main/java/basiclibrary/Library.java)
+```
+
+
+└── basiclibrary
+
+    └── src
+
+        └── main
+
+            └── java
+
+                └── basiclibrary
+
+                    ├── roll(int n)
+
+                    ├── containsDuplicates(int[] array)
+
+                    ├── calculatingAverages(int[] array)
+
+                    └── arrayWithTheLowestAverage(int[][] arraysOfArrays)
 
 ```
