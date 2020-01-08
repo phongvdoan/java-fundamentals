@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0c827a8c-f2d9-488e-8c65-ec1cd44774c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basiclibrary/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -21,13 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/basiclibrary/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="267">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -124,7 +124,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578512677616" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578513898208" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunDashboard">
@@ -139,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest">
+  <component name="RunManager" selected="JUnit.LibraryTest.testArrayWithTheLowestAverageMethod">
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basiclibrary.test" />
       <extension name="coverage">
@@ -151,6 +151,38 @@
       <option name="PACKAGE_NAME" value="basiclibrary" />
       <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.testArrayWithTheLowestAverageMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basiclibrary.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basiclibrary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basiclibrary" />
+      <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
+      <option name="METHOD_NAME" value="testArrayWithTheLowestAverageMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.testCalculatingAveragesMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basiclibrary.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basiclibrary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basiclibrary" />
+      <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
+      <option name="METHOD_NAME" value="testCalculatingAveragesMethod" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,6 +221,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest.testArrayWithTheLowestAverageMethod" />
+        <item itemvalue="JUnit.LibraryTest.testCalculatingAveragesMethod" />
         <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="JUnit.LibraryTest.testElementsInRollMethod" />
         <item itemvalue="JUnit.LibraryTest.testRollMethod" />
@@ -209,42 +243,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTest - 2020.01.07 at 22h 27m 25s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
+    <history-entry file="LibraryTest_testRollMethod - 2020.01.08 at 11h 44m 00s.xml">
+      <configuration name="LibraryTest.testRollMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest - 2020.01.07 at 22h 31m 40s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest - 2020.01.07 at 22h 34m 02s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest - 2020.01.07 at 22h 35m 09s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest - 2020.01.07 at 22h 35m 31s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest - 2020.01.07 at 22h 53m 17s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest - 2020.01.07 at 22h 55m 03s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest - 2020.01.07 at 23h 06m 43s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest - 2020.01.08 at 08h 51m 46s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testElementsInRollMethod - 2020.01.08 at 11h 36m 59s.xml">
+    <history-entry file="LibraryTest_testElementsInRollMethod - 2020.01.08 at 11h 44m 03s.xml">
       <configuration name="LibraryTest.testElementsInRollMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testElementsInRollMethod - 2020.01.08 at 11h 44m 31s.xml">
+      <configuration name="LibraryTest.testElementsInRollMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testElementsInRollMethod - 2020.01.08 at 11h 44m 39s.xml">
+      <configuration name="LibraryTest.testElementsInRollMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest - 2020.01.08 at 11h 44m 47s.xml">
+      <configuration name="LibraryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testArrayWithTheLowestAverageMethod - 2020.01.08 at 11h 59m 44s.xml">
+      <configuration name="LibraryTest.testArrayWithTheLowestAverageMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testArrayWithTheLowestAverageMethod - 2020.01.08 at 12h 02m 29s.xml">
+      <configuration name="LibraryTest.testArrayWithTheLowestAverageMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testCalculatingAveragesMethod - 2020.01.08 at 12h 02m 42s.xml">
+      <configuration name="LibraryTest.testCalculatingAveragesMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testCalculatingAveragesMethod - 2020.01.08 at 12h 04m 19s.xml">
+      <configuration name="LibraryTest.testCalculatingAveragesMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testCalculatingAveragesMethod - 2020.01.08 at 12h 04m 25s.xml">
+      <configuration name="LibraryTest.testCalculatingAveragesMethod" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="42" width="1400" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -253,7 +287,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32988167" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32988167" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -316,20 +350,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/basiclibrary/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="314">
+          <caret line="52" column="71" selection-start-line="52" selection-start-column="71" selection-end-line="52" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basiclibrary/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
         </state>
       </provider>
     </entry>

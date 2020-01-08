@@ -30,12 +30,12 @@ public class Library {
         return false;
     }
 
-    public static int calculatingAverages(int[] array){
-        int sumTotal = 0;
+    public static double calculatingAverages(int[] array){
+       double sumTotal = 0;
         for( int number : array){
             sumTotal += number;
         }
-        return sumTotal/array.length;
+        return sumTotal / array.length;
     }
 
     public static int[] arrayWithTheLowestAverage(int[][] arraysOfArrays){

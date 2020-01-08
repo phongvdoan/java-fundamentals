@@ -49,8 +49,8 @@ public class LibraryTest {
 
     @Test public void testCalculatingAveragesMethod() {
         int[] testArray = {1,2,3,4,5,6,7,8,9,10};
-
-        assertEquals(5, Library.calculatingAverages(testArray));
+        double answer = 5.5;
+        assertEquals(answer, Library.calculatingAverages(testArray), .1);
     }
 
     @Test public void testArrayWithTheLowestAverageMethod() {
