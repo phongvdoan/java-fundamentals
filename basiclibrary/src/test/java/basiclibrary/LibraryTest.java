@@ -5,6 +5,9 @@ package basiclibrary;
 
 
 import org.junit.Test;
+
+import java.util.Arrays;
+
 import static org.junit.Assert.*;
 
 public class LibraryTest {
@@ -22,9 +25,8 @@ public class LibraryTest {
     @Test public void testElementsInRollMethod() {
         boolean testResult = false;
         int[] testData = Library.roll(5);
-
         for ( int number : testData) {
-            if (number >= 0 && number <= 6) {
+            if (number > 0 && number < 7) {
                 testResult = true;
             } else {
                 testResult = false;

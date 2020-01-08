@@ -12,9 +12,9 @@ public class Library {
     public static int[] roll(int n) {
         int[] arrayOfRolls = new int[n];
 
-        for(int number : arrayOfRolls) {
-           int rollResult = (int) (Math.random()*6)+1;
-           number = rollResult;
+        for(int i = 0; i < arrayOfRolls.length; i++) {
+           int rollResult = (int) (Math.random() * 6 ) + 1;
+            arrayOfRolls[i] = rollResult;
         }
         return arrayOfRolls;
     }
