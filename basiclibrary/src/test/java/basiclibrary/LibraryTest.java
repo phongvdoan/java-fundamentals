@@ -3,11 +3,8 @@
  */
 package basiclibrary;
 
-import com.sun.org.apache.xpath.internal.operations.String;
+
 import org.junit.Test;
-
-import java.util.regex.Pattern;
-
 import static org.junit.Assert.*;
 
 public class LibraryTest {
