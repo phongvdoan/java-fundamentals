@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a75e0b18-7149-468a-8c69-c08be0a8abb1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/linter/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/linter/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/linter/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/linter/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linter/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/linter/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linter/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="a75e0b18-7149-468a-8c69-c08be0a8abb1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/linter/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="210">
               <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,6 +90,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,7 +113,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -284,7 +276,7 @@
   <component name="ToolWindowManager">
     <frame x="19" y="42" width="1400" height="768" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26435935" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26804122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,7 +367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/linter/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="210">
           <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />

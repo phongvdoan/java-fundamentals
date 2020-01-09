@@ -4,7 +4,7 @@
 package basiclibrary;
 
 
-import java.io.FileNotFoundException;
+
 import java.util.*;
 
 public class Library {
@@ -71,7 +71,6 @@ public class Library {
         String result = "High: " + highestTemp + "\n";
         result += "Low: " + lowestTemp + "\n";
         for( int checkforTemp = lowestTemp; checkforTemp < highestTemp; checkforTemp++) {
-            //https://stackoverflow.com/questions/15730134/java-opposite-of-contains-does-not-contain
             if(!uniqueTemp.contains(checkforTemp)) {
                 result += "Never saw temperature: " + checkforTemp + "\n";
             }
@@ -83,23 +82,23 @@ public class Library {
 
         String winner = " ";
 
-        HashMap<String, Integer> totalVotes = new HashMap<>();
-        for(String name : votes){
-            totalVotes.put(name, 0);
+        HashMap<String, Integer> possibleVotes = new HashMap<>();
+        for(String entry : votes){
+            possibleVotes.put(entry, 0);
         }
 
         for( String vote : votes) {
-            int nameWasSeenCount = totalVotes.get(vote);
-            totalVotes.put(vote, nameWasSeenCount + 1);
+            int voteCount = possibleVotes.get(vote);
+            possibleVotes.put(vote, voteCount + 1);
         }
 
         int mostVotes = Integer.MIN_VALUE;
 
         //https://www.baeldung.com/java-iterate-map
-        for(HashMap.Entry<String, Integer> entry : totalVotes.entrySet()) {
-            if (entry.getValue() > mostVotes){
-                mostVotes = entry.getValue();
-                winner = entry.getKey();
+        for(HashMap.Entry<String, Integer> votePossiblity : possibleVotes.entrySet()) {
+            if (votePossiblity.getValue() > mostVotes){
+                mostVotes = votePossiblity.getValue();
+                winner = votePossiblity.getKey();
 
             }
         }
