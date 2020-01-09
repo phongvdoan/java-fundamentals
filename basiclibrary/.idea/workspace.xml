@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0c827a8c-f2d9-488e-8c65-ec1cd44774c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basiclibrary/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/basiclibrary/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/basiclibrary/Library.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="92">
+              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/basiclibrary/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="170">
+              <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -51,16 +50,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/basiclibrary/Library.java" />
         <option value="$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basiclibrary/Library.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
-    <option name="y" value="42" />
-    <option name="width" value="1400" />
-    <option name="height" value="768" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -68,6 +65,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,20 +121,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578524158553" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578605377743" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -150,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest.testElementsInRollMethod">
+  <component name="RunManager" selected="JUnit.LibraryTest">
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basiclibrary.test" />
       <extension name="coverage">
@@ -166,6 +159,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibraryTest.testAnalyzingWeatherDataMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basiclibrary.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basiclibrary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basiclibrary" />
+      <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
+      <option name="METHOD_NAME" value="testAnalyzingWeatherDataMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LibraryTest.testArrayWithTheLowestAverageMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basiclibrary.test" />
       <extension name="coverage">
@@ -177,22 +186,6 @@
       <option name="PACKAGE_NAME" value="basiclibrary" />
       <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
       <option name="METHOD_NAME" value="testArrayWithTheLowestAverageMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LibraryTest.testCalculatingAveragesMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basiclibrary.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basiclibrary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basiclibrary" />
-      <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
-      <option name="METHOD_NAME" value="testCalculatingAveragesMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,7 +207,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.testRollMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryTest.testTallyMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basiclibrary.test" />
       <extension name="coverage">
         <pattern>
@@ -224,7 +217,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="basiclibrary" />
       <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
-      <option name="METHOD_NAME" value="testRollMethod" />
+      <option name="METHOD_NAME" value="testTallyMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LibraryTest.testElementsInRollMethod" />
         <item itemvalue="JUnit.LibraryTest" />
+        <item itemvalue="JUnit.LibraryTest.testTallyMethod" />
+        <item itemvalue="JUnit.LibraryTest.testAnalyzingWeatherDataMethod" />
+        <item itemvalue="JUnit.LibraryTest.testElementsInRollMethod" />
         <item itemvalue="JUnit.LibraryTest.testArrayWithTheLowestAverageMethod" />
-        <item itemvalue="JUnit.LibraryTest.testCalculatingAveragesMethod" />
-        <item itemvalue="JUnit.LibraryTest.testRollMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -251,38 +244,46 @@
       <option name="presentableId" value="Default" />
       <updated>1578462872402</updated>
     </task>
+    <task id="LOCAL-00001" summary="changed variable names">
+      <created>1578605340185</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578605340185</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTest_testArrayWithTheLowestAverageMethod - 2020.01.08 at 12h 05m 06s.xml">
-      <configuration name="LibraryTest.testArrayWithTheLowestAverageMethod" configurationId="JUnit" />
+    <history-entry file="LibraryTest_testTallyMethod - 2020.01.09 at 10h 02m 22s.xml">
+      <configuration name="LibraryTest.testTallyMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest - 2020.01.08 at 12h 19m 48s.xml">
+    <history-entry file="LibraryTest_testTallyMethod - 2020.01.09 at 10h 03m 45s.xml">
+      <configuration name="LibraryTest.testTallyMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testTallyMethod - 2020.01.09 at 10h 07m 28s.xml">
+      <configuration name="LibraryTest.testTallyMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testTallyMethod - 2020.01.09 at 10h 07m 59s.xml">
+      <configuration name="LibraryTest.testTallyMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testTallyMethod - 2020.01.09 at 10h 10m 23s.xml">
+      <configuration name="LibraryTest.testTallyMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testTallyMethod - 2020.01.09 at 10h 11m 20s.xml">
+      <configuration name="LibraryTest.testTallyMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testTallyMethod - 2020.01.09 at 10h 11m 33s.xml">
+      <configuration name="LibraryTest.testTallyMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testTallyMethod - 2020.01.09 at 10h 11m 53s.xml">
+      <configuration name="LibraryTest.testTallyMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest - 2020.01.09 at 11h 11m 51s.xml">
       <configuration name="LibraryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest - 2020.01.08 at 12h 21m 35s.xml">
+    <history-entry file="LibraryTest - 2020.01.09 at 13h 21m 50s.xml">
       <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest - 2020.01.08 at 14h 48m 05s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest - 2020.01.08 at 14h 48m 45s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest - 2020.01.08 at 14h 49m 51s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testElementsInRollMethod - 2020.01.08 at 14h 53m 34s.xml">
-      <configuration name="LibraryTest.testElementsInRollMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testElementsInRollMethod - 2020.01.08 at 14h 54m 02s.xml">
-      <configuration name="LibraryTest.testElementsInRollMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testElementsInRollMethod - 2020.01.08 at 14h 55m 54s.xml">
-      <configuration name="LibraryTest.testElementsInRollMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testElementsInRollMethod - 2020.01.08 at 14h 56m 00s.xml">
-      <configuration name="LibraryTest.testElementsInRollMethod" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
@@ -295,9 +296,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="42" width="1400" height="768" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27172312" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -306,16 +307,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32988167" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2686747" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32988167" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32988167" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.26923078" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2686747" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32988167" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32988167" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -352,6 +353,24 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed variable names" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed variable names" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -400,20 +419,20 @@
         <state relative-caret-position="-4000" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/basiclibrary/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="92">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basiclibrary/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="74" column="23" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -44,3 +44,41 @@ First several labs for Java 401
                     └── arrayWithTheLowestAverage(int[][] arraysOfArrays)
 
 ```
+
+### Lab 3: Maps, File I/O, and Testing
+[analyzingWeatherData, tally](basiclibrary/src/main/java/basiclibrary/Library.java)
+[linter](linter/src/main/java/linter/App.java)
+```
+
+
+└── basiclibrary
+
+    └── src
+
+        └── main
+
+            └── java
+
+                └── basiclibrary
+
+                    └── Library
+
+                        ├── analyzingWeatherData(int[][] arrayOfArrays)
+
+                        ├── tally(List<String> votes)
+
+  └── linter
+
+    └── src
+
+        └── main
+
+            └── java
+
+                └── linter
+
+                    └── App.java
+
+                         ├── checkJavaScriptFile(Path filePath)                 
+
+```
