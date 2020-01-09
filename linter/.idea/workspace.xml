@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a75e0b18-7149-468a-8c69-c08be0a8abb1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../basiclibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basiclibrary/out/production/classes/basiclibrary/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/out/production/classes/basiclibrary/Library.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basiclibrary/out/test/classes/basiclibrary/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/out/test/classes/basiclibrary/LibraryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basiclibrary/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/src/main/java/basiclibrary/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../basiclibrary/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basiclibrary/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/linter/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/linter/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/linter/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/linter/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linter/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/linter/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linter/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -27,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/gates.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="120">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -36,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/linter/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="255">
+              <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,13 +47,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/linter/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="88" column="67" selection-start-line="88" selection-start-column="67" selection-end-line="88" selection-end-column="67" />
+            <state relative-caret-position="1485">
+              <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/empty.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -62,8 +78,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/linter/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/one-error.js" />
         <option value="$PROJECT_DIR$/src/main/java/linter/App.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/no-error.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/few-errors.js" />
+        <option value="$PROJECT_DIR$/src/test/java/linter/AppTest.java" />
       </list>
     </option>
   </component>
@@ -79,8 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,71 +116,22 @@
               <item name="gradle" type="462c0819:PsiDirectoryNode" />
               <item name="wrapper" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="linter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="linter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="linter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="linter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="linter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="linter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="linter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="linter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="linter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="linter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="linter" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578597038460" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578598513966" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
@@ -180,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="JUnit.AppTest.testEmptyFileCheckJavaScriptFileMethod">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linter.App" />
       <module name="linter.main" />
@@ -194,7 +162,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testEmptyFileCheckJavaScriptFileMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="linter.test" />
       <extension name="coverage">
         <pattern>
@@ -204,7 +172,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="linter" />
       <option name="MAIN_CLASS_NAME" value="linter.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testEmptyFileCheckJavaScriptFileMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testNoErrorCheckJavaScriptFileMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linter.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linter" />
+      <option name="MAIN_CLASS_NAME" value="linter.AppTest" />
+      <option name="METHOD_NAME" value="testNoErrorCheckJavaScriptFileMethod" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,9 +210,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.testfewErrorCheckJavaScriptFileMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="linter.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linter" />
+      <option name="MAIN_CLASS_NAME" value="linter.AppTest" />
+      <option name="METHOD_NAME" value="testfewErrorCheckJavaScriptFileMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.testEmptyFileCheckJavaScriptFileMethod" />
+        <item itemvalue="JUnit.AppTest.testfewErrorCheckJavaScriptFileMethod" />
+        <item itemvalue="JUnit.AppTest.testNoErrorCheckJavaScriptFileMethod" />
         <item itemvalue="JUnit.AppTest.testcheckJavaScriptFileMethod" />
         <item itemvalue="Application.App" />
       </list>
@@ -247,25 +250,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_testcheckJavaScriptFileMethod - 2020.01.09 at 11h 10m 18s.xml">
+    <history-entry file="AppTest_testOneErrorCheckJavaScriptFileMethod - 2020.01.09 at 11h 20m 15s.xml">
+      <configuration name="AppTest.testOneErrorCheckJavaScriptFileMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testOneErrorCheckJavaScriptFileMethod - 2020.01.09 at 11h 24m 18s.xml">
+      <configuration name="AppTest.testOneErrorCheckJavaScriptFileMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testOneErrorCheckJavaScriptFileMethod - 2020.01.09 at 11h 25m 32s.xml">
+      <configuration name="AppTest.testOneErrorCheckJavaScriptFileMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testcheckJavaScriptFileMethod - 2020.01.09 at 11h 29m 05s.xml">
       <configuration name="AppTest.testcheckJavaScriptFileMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2020.01.09 at 11h 10m 41s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="AppTest_testcheckJavaScriptFileMethod - 2020.01.09 at 11h 30m 17s.xml">
+      <configuration name="AppTest.testcheckJavaScriptFileMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testNoErrorCheckJavaScriptFileMethod - 2020.01.09 at 11h 31m 38s.xml">
+      <configuration name="AppTest.testNoErrorCheckJavaScriptFileMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testfewErrorCheckJavaScriptFileMethod - 2020.01.09 at 11h 32m 37s.xml">
+      <configuration name="AppTest.testfewErrorCheckJavaScriptFileMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testfewErrorCheckJavaScriptFileMethod - 2020.01.09 at 11h 32m 49s.xml">
+      <configuration name="AppTest.testfewErrorCheckJavaScriptFileMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testfewErrorCheckJavaScriptFileMethod - 2020.01.09 at 11h 34m 14s.xml">
+      <configuration name="AppTest.testfewErrorCheckJavaScriptFileMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testEmptyFileCheckJavaScriptFileMethod - 2020.01.09 at 11h 35m 08s.xml">
+      <configuration name="AppTest.testEmptyFileCheckJavaScriptFileMethod" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="42" width="1400" height="768" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26435935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32988167" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32988167" />
@@ -273,10 +298,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32988167" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.32988167" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32988167" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,17 +345,38 @@
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/one-error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/no-error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/few-errors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/gates.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/linter/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="255">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -338,8 +385,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/linter/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="88" column="67" selection-start-line="88" selection-start-column="67" selection-end-line="88" selection-end-column="67" />
+        <state relative-caret-position="1485">
+          <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/empty.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
         </state>
       </provider>
     </entry>

@@ -17,7 +17,9 @@ public class App {
     public static void main(String[] args) {
 
         System.out.println(new App().getGreeting());
+        Path testFile = Paths.get("src/main/resources/gates.js");
 
+        System.out.println(checkJavaScriptFile(testFile));
     }
 
     public static String checkJavaScriptFile(Path filePath){
@@ -31,8 +33,8 @@ public class App {
 
             while( fileScanner.hasNextLine()){
                 String currentLine = fileScanner.nextLine();
-                if(!currentLine.endsWith(";") && !currentLine.endsWith("}") && !currentLine.endsWith("{") && !currentLine.contains("if") && !currentLine.contains("else") ) {
-                    message += "There is a missing ';' on Line: " + currentLineNumber + "\n";
+                if(!currentLine.endsWith(";") && !currentLine.endsWith("}") && !currentLine.endsWith("{") && !currentLine.contains("if") && !currentLine.contains("else") && !currentLine.isEmpty() && !currentLine.startsWith("//") ) {
+                    message += "Line "+ currentLineNumber +": Missing semicolon.\n";
                 }
                 currentLineNumber ++;
             }

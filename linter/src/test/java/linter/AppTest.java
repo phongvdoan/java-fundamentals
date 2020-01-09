@@ -18,74 +18,96 @@ public class AppTest {
 
     @Test public void testcheckJavaScriptFileMethod() {
         String stringResult =
-                "Current errors:  \n" +
-                "There is a missing ';' on Line: 3\n" +
-                "There is a missing ';' on Line: 5\n" +
-                "There is a missing ';' on Line: 8\n" +
-                "There is a missing ';' on Line: 11\n" +
-                "There is a missing ';' on Line: 13\n" +
-                "There is a missing ';' on Line: 15\n" +
-                "There is a missing ';' on Line: 17\n" +
-                "There is a missing ';' on Line: 23\n" +
-                "There is a missing ';' on Line: 26\n" +
-                "There is a missing ';' on Line: 28\n" +
-                "There is a missing ';' on Line: 30\n" +
-                "There is a missing ';' on Line: 32\n" +
-                "There is a missing ';' on Line: 34\n" +
-                "There is a missing ';' on Line: 36\n" +
-                "There is a missing ';' on Line: 38\n" +
-                "There is a missing ';' on Line: 40\n" +
-                "There is a missing ';' on Line: 41\n" +
-                "There is a missing ';' on Line: 44\n" +
-                "There is a missing ';' on Line: 48\n" +
-                "There is a missing ';' on Line: 50\n" +
-                "There is a missing ';' on Line: 51\n" +
-                "There is a missing ';' on Line: 52\n" +
-                "There is a missing ';' on Line: 54\n" +
-                "There is a missing ';' on Line: 58\n" +
-                "There is a missing ';' on Line: 59\n" +
-                "There is a missing ';' on Line: 60\n" +
-                "There is a missing ';' on Line: 61\n" +
-                "There is a missing ';' on Line: 62\n" +
-                "There is a missing ';' on Line: 64\n" +
-                "There is a missing ';' on Line: 66\n" +
-                "There is a missing ';' on Line: 68\n" +
-                "There is a missing ';' on Line: 69\n" +
-                "There is a missing ';' on Line: 70\n" +
-                "There is a missing ';' on Line: 71\n" +
-                "There is a missing ';' on Line: 72\n" +
-                "There is a missing ';' on Line: 73\n" +
-                "There is a missing ';' on Line: 74\n" +
-                "There is a missing ';' on Line: 75\n" +
-                "There is a missing ';' on Line: 76\n" +
-                "There is a missing ';' on Line: 77\n" +
-                "There is a missing ';' on Line: 78\n" +
-                "There is a missing ';' on Line: 79\n" +
-                "There is a missing ';' on Line: 80\n" +
-                "There is a missing ';' on Line: 81\n" +
-                "There is a missing ';' on Line: 82\n" +
-                "There is a missing ';' on Line: 83\n" +
-                "There is a missing ';' on Line: 84\n" +
-                "There is a missing ';' on Line: 85\n" +
-                "There is a missing ';' on Line: 86\n" +
-                "There is a missing ';' on Line: 87\n" +
-                "There is a missing ';' on Line: 88\n" +
-                "There is a missing ';' on Line: 89\n" +
-                "There is a missing ';' on Line: 90\n" +
-                "There is a missing ';' on Line: 91\n" +
-                "There is a missing ';' on Line: 92\n" +
-                "There is a missing ';' on Line: 93\n" +
-                "There is a missing ';' on Line: 94\n" +
-                "There is a missing ';' on Line: 95\n" +
-                "There is a missing ';' on Line: 96\n" +
-                "There is a missing ';' on Line: 97\n" +
-                "There is a missing ';' on Line: 98\n" +
-                "There is a missing ';' on Line: 99\n" +
-                "There is a missing ';' on Line: 100\n" +
-                "There is a missing ';' on Line: 101\n" +
-                "There is a missing ';' on Line: 102\n";
+                "Current errors:  \n"+
+                        "Line 3: Missing semicolon.\n" +
+                        "Line 5: Missing semicolon.\n" +
+                        "Line 11: Missing semicolon.\n" +
+                        "Line 13: Missing semicolon.\n" +
+                        "Line 15: Missing semicolon.\n" +
+                        "Line 26: Missing semicolon.\n" +
+                        "Line 28: Missing semicolon.\n" +
+                        "Line 32: Missing semicolon.\n" +
+                        "Line 36: Missing semicolon.\n" +
+                        "Line 40: Missing semicolon.\n" +
+                        "Line 41: Missing semicolon.\n" +
+                        "Line 50: Missing semicolon.\n" +
+                        "Line 51: Missing semicolon.\n" +
+                        "Line 64: Missing semicolon.\n" +
+                        "Line 70: Missing semicolon.\n" +
+                        "Line 71: Missing semicolon.\n" +
+                        "Line 72: Missing semicolon.\n" +
+                        "Line 73: Missing semicolon.\n" +
+                        "Line 74: Missing semicolon.\n" +
+                        "Line 76: Missing semicolon.\n" +
+                        "Line 77: Missing semicolon.\n" +
+                        "Line 78: Missing semicolon.\n" +
+                        "Line 79: Missing semicolon.\n" +
+                        "Line 80: Missing semicolon.\n" +
+                        "Line 82: Missing semicolon.\n" +
+                        "Line 83: Missing semicolon.\n" +
+                        "Line 84: Missing semicolon.\n" +
+                        "Line 85: Missing semicolon.\n" +
+                        "Line 86: Missing semicolon.\n" +
+                        "Line 88: Missing semicolon.\n" +
+                        "Line 89: Missing semicolon.\n" +
+                        "Line 90: Missing semicolon.\n" +
+                        "Line 91: Missing semicolon.\n" +
+                        "Line 92: Missing semicolon.\n" +
+                        "Line 94: Missing semicolon.\n" +
+                        "Line 95: Missing semicolon.\n" +
+                        "Line 96: Missing semicolon.\n" +
+                        "Line 97: Missing semicolon.\n" +
+                        "Line 98: Missing semicolon.\n" +
+                        "Line 99: Missing semicolon.\n" +
+                        "Line 100: Missing semicolon.\n" +
+                        "Line 101: Missing semicolon.\n";
+
         Path testFile = Paths.get("src/main/resources/gates.js");
 
         assertEquals(stringResult, App.checkJavaScriptFile(testFile));
     }
+
+    @Test public void testOneErrorCheckJavaScriptFileMethod() {
+        String stringResult =
+                "Current errors:  \n" +
+                        "Line 78: Missing semicolon.\n" ;
+
+        Path testFile = Paths.get("src/main/resources/one-error.js");
+
+        assertEquals(stringResult, App.checkJavaScriptFile(testFile));
+    }
+
+    @Test public void testNoErrorCheckJavaScriptFileMethod() {
+        String stringResult =
+                "Current errors:  \n";
+
+        Path testFile = Paths.get("src/main/resources/no-error.js");
+
+        assertEquals(stringResult, App.checkJavaScriptFile(testFile));
+    }
+
+    @Test public void testfewErrorCheckJavaScriptFileMethod() {
+        String stringResult =
+                "Current errors:  \n" +
+                    "Line 13: Missing semicolon.\n" +
+                    "Line 21: Missing semicolon.\n" +
+                    "Line 28: Missing semicolon.\n" +
+                    "Line 32: Missing semicolon.\n";
+
+        Path testFile = Paths.get("src/main/resources/few-errors.js");
+
+        assertEquals(stringResult, App.checkJavaScriptFile(testFile));
+    }
+
+    @Test public void testEmptyFileCheckJavaScriptFileMethod() {
+        String stringResult =
+                "Current errors:  \n";
+
+
+        Path testFile = Paths.get("src/main/resources/empty.js");
+
+        assertEquals(stringResult, App.checkJavaScriptFile(testFile));
+    }
+
+
 }
