@@ -5,7 +5,7 @@ import org.junit.Test;
 public class ReviewTest {
     @Test
     public void testReviewConstructorAndToString() {
-        Review testReview = new Review("Mickey D's", "Bob", 2);
+        Review testReview = new Review("Mickey D's", "Bob", 2, "example name");
         System.out.println("Tee = " + testReview.toString());
     }
 
