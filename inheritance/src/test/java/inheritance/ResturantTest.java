@@ -27,9 +27,9 @@ public class ResturantTest {
         testResturant.addReview(newTestReviewtwo);
         assertEquals("new Reviews are not adding to LinkedList of reviews", "[Review: It was pretty good\n" +
                 " by Mani.\n" +
-                " ★★★★ star rating., Review: It was good\n" +
+                " 4 star rating., Review: It was good\n" +
                 " by Jane.\n" +
-                " ★★★★★ star rating.]", testResturant.allReviews.toString());
+                " 5 star rating.]", testResturant.allReviews.toString());
     }
 
     @Test
