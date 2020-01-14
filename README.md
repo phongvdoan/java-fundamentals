@@ -2,7 +2,7 @@
 First several labs for Java 401
 
 ### Lab 01 - Java Primitives and Control Flow
-[pluralize, flipNHeads, and clock](basic/)
+[pluralize, flipNHeads, and clock](basic/Main.java)
 ```
 
 
@@ -47,6 +47,7 @@ First several labs for Java 401
 
 ### Lab 3: Maps, File I/O, and Testing
 [analyzingWeatherData, tally](basiclibrary/src/main/java/basiclibrary/Library.java)
+
 [linter](linter/src/main/java/linter/App.java)
 ```
 
@@ -81,4 +82,34 @@ First several labs for Java 401
 
                          ├── checkJavaScriptFile(Path filePath)                 
 
+```
+
+
+### Lab 6: Resturant and Reveiw
+[Resturant](inheritance/src/main/java/inheritance/Resturant.java)
+
+[Review](inheritance/src/main/java/inheritance/Reveiw.java)
+```
+
+  └── inheritance
+
+    └── src
+
+        └── main
+
+            └── java
+
+                └── inheritance
+
+                    └── Resturant.java
+
+                         ├── toString();
+
+                         ├── addReview(Review review);
+
+                         ├── calculateAverageReviewStars();
+
+                    └── Review.java
+
+                        ├── toString();
 ```
