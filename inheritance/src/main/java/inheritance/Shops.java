@@ -1,10 +1,13 @@
 package inheritance;
 
+import java.util.LinkedList;
+
 public class Shops implements ReviewableBuisness {
     String name;
     String description;
     int numberofDollarSigns;
     double numberOfStars;
+    LinkedList<Review> allReviews = new LinkedList<>();
 
     public Shops(String name, String description, int numberofDollarSigns) {
         this.name = name;
@@ -19,18 +22,20 @@ public class Shops implements ReviewableBuisness {
 
 
     @Override
-    public void addReviews(Review review) {
-        allReviews.add(review);
+    public void addReview(Review review) {
+        this.allReviews.add(review);
+        calculateAverageReviewStars();
     }
 
     @Override
-    public void calculateAverageReviewStars() {
+    public double calculateAverageReviewStars() {
         double allStars = 0;
-        for (Review review : allReviews) {
+        for (Review review : this.allReviews) {
             allStars += review.stars;
         }
-        double averageStars = allStars/allReviews.size();
+        double averageStars = allStars/this.allReviews.size();
         this.numberOfStars = averageStars;
 
+        return this.numberOfStars;
     }
 }

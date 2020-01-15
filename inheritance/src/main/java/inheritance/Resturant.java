@@ -3,7 +3,7 @@ package inheritance;
 import java.util.*;
 
 
-public class Resturant {
+public class Resturant implements ReviewableBuisness {
 
     String name;
     double numberOfStars;
@@ -18,10 +18,11 @@ public class Resturant {
     }
 
 
-    public void addReview(Review review){
+    public void addReview(Review review) {
         allReviews.add(review);
         calculateAverageReviewStars();
     }
+
 
     public double calculateAverageReviewStars() {
         double allStars = 0;
@@ -37,7 +38,7 @@ public class Resturant {
     public String toString(){
         StringJoiner buisnessInfo = new StringJoiner("\n\n");
         buisnessInfo.add(String.format("Resturant: %s\n %.1f stars.\n %s price category", this.name, this.numberOfStars, this.categoryOfPrice));
-        for(Review review : allReviews) {
+        for(Review review : this.allReviews) {
             buisnessInfo.add(String.format("Review: %s\n by %s.\n %s star rating.", review.body, review.author, review.stars));
         }
 

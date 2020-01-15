@@ -17,6 +17,7 @@ public class Review {
     }
 
     public String toString(){
-        return String.format("Review: %s\n by %s.\n %s star rating.", this.body, this.author, this.stars);
+
+        return String.format("Review: %s , %s\n by %s.\n %s star rating.\n",this.resturantName, this.body, this.author, this.stars);
     }
 }
