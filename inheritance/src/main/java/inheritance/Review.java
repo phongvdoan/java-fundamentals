@@ -28,15 +28,14 @@ public class Review {
 
     public String toString(){
         StringJoiner reviewStrings = new StringJoiner("\n");
-        reviewStrings.add(String.format("Store: %s", this.buisnessName));
-        reviewStrings.add("Reviews:");
+        reviewStrings.add("\nReviews:");
         if(this.movie == null) {
             reviewStrings.add(String.format("%s said '%s", this.author, this.body));
             reviewStrings.add(String.format("%s rates %s, a %d out of 5", this.author, this.buisnessName, this.stars));
             return reviewStrings.toString();
         }
         reviewStrings.add(String.format("%s said '%s", this.author, this.body));
-        reviewStrings.add(String.format("%s rates %s, a %d out of 5", this.author, this.movie, this.stars));
+        reviewStrings.add(String.format("%s rates %s, a %d out of 5\n", this.author, this.movie, this.stars));
         return reviewStrings.toString();
     }
 }

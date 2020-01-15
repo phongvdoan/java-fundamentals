@@ -18,12 +18,8 @@ public class Resturant extends Store {
 
     public String toString(){
         StringJoiner buisnessInfo = new StringJoiner("\n\n");
-        buisnessInfo.add(String.format("Resturant: %s\n %.1f stars.\n %s price category", this.storeName, this.numberOfStars, this.categoryOfPrice));
-        for(Review review : this.allReviews) {
-            buisnessInfo.add(String.format("Review: %s\n by %s.\n %s star rating.", review.body, review.author, review.stars));
-        }
-
-
+        buisnessInfo.add(String.format(" %s\n Average Rating: %.1f stars.\n Current Price Category %s", this.storeName, this.numberOfStars, this.categoryOfPrice));
+        buisnessInfo.add(this.allReviews.toString());
         return  buisnessInfo.toString();
     }
 

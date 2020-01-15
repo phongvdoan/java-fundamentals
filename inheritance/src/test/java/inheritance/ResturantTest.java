@@ -25,17 +25,17 @@ public class ResturantTest {
         Review newTestReviewtwo = new Review("It was good", "Jane", 5, testResturant.storeName);
         testResturant.addReview(newTestReview);
         testResturant.addReview(newTestReviewtwo);
-        assertEquals("new Reviews are not adding to LinkedList of reviews", "Resturant: Mickey D's\n" +
-                " 4.5 stars.\n" +
-                " 2.0 price category\n" +
+        assertEquals("new Reviews are not adding to LinkedList of reviews", " Mickey D's\n" +
+                " Average Rating: 4.5 stars.\n" +
+                " Current Price Category 2.0\n" +
                 "\n" +
-                "Review: It was pretty good\n" +
-                " by Mani.\n" +
-                " 4 star rating.\n" +
-                "\n" +
-                "Review: It was good\n" +
-                " by Jane.\n" +
-                " 5 star rating.", testResturant.toString());
+                "[\n" +
+                "Reviews:\n" +
+                "Mani said 'It was pretty good\n" +
+                "Mani rates Mickey D's, a 4 out of 5, \n" +
+                "Reviews:\n" +
+                "Jane said 'It was good\n" +
+                "Jane rates Mickey D's, a 5 out of 5]", testResturant.toString());
     }
 
     @Test

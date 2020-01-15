@@ -1,6 +1,6 @@
 package inheritance;
 
-import java.util.LinkedList;
+
 
 public interface ReviewableBuisness{
 
