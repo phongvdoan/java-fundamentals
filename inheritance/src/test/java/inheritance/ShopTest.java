@@ -26,10 +26,10 @@ public class ShopTest {
 
         testShop.addReview(newTestReview);
         testShop.addReview(newTestReviewtwo);
-        assertEquals("new Reviews are not adding to LinkedList of reviews", "[Store: Target\n" +
+        assertEquals("new Reviews are not adding to LinkedList of reviews", "[\n" +
                 "Reviews:\n" +
                 "Mani said 'It was pretty good\n" +
-                "Mani rates Target, a 4 out of 5, Store: Target\n" +
+                "Mani rates Target, a 4 out of 5, \n" +
                 "Reviews:\n" +
                 "Jane said 'It was good\n" +
                 "Jane rates Target, a 5 out of 5]", testShop.allReviews.toString());

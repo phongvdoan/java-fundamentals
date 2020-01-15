@@ -14,9 +14,11 @@ public class ResturantTest {
     @Test
     public void testResaurantConstructorAndToString() {
 
-        assertEquals("The constructor and toString method broke.", "Resturant: Mickey D's\n" +
-                " 3.0 stars.\n" +
-                " 2.0 price category", testResturant.toString());
+        assertEquals("The constructor and toString method broke.", " Mickey D's\n" +
+                " Average Rating: 3.0 stars.\n" +
+                " Current Price Category 2.0\n" +
+                "\n" +
+                "[]", testResturant.toString());
     }
 
     @Test

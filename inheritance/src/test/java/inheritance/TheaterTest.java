@@ -62,12 +62,14 @@ public class TheaterTest {
 
         testTheater.addReview(newTestReview);
         testTheater.addReview(newTestReviewtwo);
-        assertEquals("new Reviews are not adding to LinkedList of reviews", "[Store: AMC\n" +
+        assertEquals("new Reviews are not adding to LinkedList of reviews", "[\n" +
                 "Reviews:\n" +
                 "Mani said 'It was pretty good\n" +
-                "Mani rates Batman, a 4 out of 5, Store: AMC\n" +
+                "Mani rates Batman, a 4 out of 5\n" +
+                ", \n" +
                 "Reviews:\n" +
                 "Jane said 'It was good\n" +
-                "Jane rates Titanic, a 5 out of 5]", testTheater.allReviews.toString());
+                "Jane rates Titanic, a 5 out of 5\n" +
+                "]", testTheater.allReviews.toString());
     }
 }
