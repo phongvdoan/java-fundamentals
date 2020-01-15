@@ -57,15 +57,15 @@ public class TheaterTest {
 
     @Test
     public void testTheaterClass_addReviewMethod(){
-        Review newTestReview = new Review("It was pretty good", "Mani", 4, testTheater.name);
-        Review newTestReviewtwo = new Review("It was good", "Jane", 5, testTheater.name);
+        Review newTestReview = new Review("It was pretty good", "Mani", 4, testTheater.name, "Batman");
+        Review newTestReviewtwo = new Review("It was good", "Jane", 5, testTheater.name, "Titanic");
 
         testTheater.addReview(newTestReview);
         testTheater.addReview(newTestReviewtwo);
-        assertEquals("new Reviews are not adding to LinkedList of reviews", "[Review: AMC , It was pretty good\n" +
+        assertEquals("new Reviews are not adding to LinkedList of reviews", "[Review: Batman , It was pretty good\n" +
                 " by Mani.\n" +
                 " 4 star rating.\n" +
-                ", Review: AMC , It was good\n" +
+                ", Review: Titanic , It was good\n" +
                 " by Jane.\n" +
                 " 5 star rating.\n" +
                 "]", testTheater.allReviews.toString());
