@@ -8,7 +8,7 @@ public class Shops extends Store {
 
 
     public Shops(String name, String description, int numberofDollarSigns) {
-        super(name, 3);
+        super(name);
         this.description = description;
         this.numberofDollarSigns = numberofDollarSigns;
 

@@ -7,7 +7,7 @@ public class Theater extends Store {
     LinkedList<String> currentMovies = new LinkedList<>();
 
     public Theater(String name) {
-        super(name, 3);
+        super(name);
     }
 
     public void addMovie(String movie){

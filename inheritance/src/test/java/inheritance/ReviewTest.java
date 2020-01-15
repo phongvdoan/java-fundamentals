@@ -8,9 +8,10 @@ public class ReviewTest {
     @Test
     public void testReviewConstructorAndToString() {
         Review testReview = new Review("Mickey D's", "Bob", 2, "example name");
-        assertEquals("Review contructor or toString is not working","Review: example name , Mickey D's\n" +
-                " by Bob.\n" +
-                " 2 star rating.\n", testReview.toString());
+        assertEquals("Review contructor or toString is not working","Store: example name\n" +
+                "Reviews:\n" +
+                "Bob said 'Mickey D's\n" +
+                "Bob rates example name, a 2 out of 5", testReview.toString());
     }
 
 

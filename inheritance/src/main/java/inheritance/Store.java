@@ -13,6 +13,10 @@ public class Store {
 
     }
 
+    public Store(String storeName) {
+        this.storeName = storeName;
+    }
+
     public void addReview(Review review) {
         allReviews.add(review);
         calculateAverageReviewStars();

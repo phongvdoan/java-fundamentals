@@ -1,5 +1,6 @@
 package inheritance;
 
+
 import java.util.StringJoiner;
 
 public class Review {
@@ -26,9 +27,16 @@ public class Review {
     }
 
     public String toString(){
+        StringJoiner reviewStrings = new StringJoiner("\n");
+        reviewStrings.add(String.format("Store: %s", this.buisnessName));
+        reviewStrings.add("Reviews:");
         if(this.movie == null) {
-            return String.format("Review: %s , %s\n by %s.\n %s star rating.\n", this.buisnessName, this.body, this.author, this.stars);
+            reviewStrings.add(String.format("%s said '%s", this.author, this.body));
+            reviewStrings.add(String.format("%s rates %s, a %d out of 5", this.author, this.buisnessName, this.stars));
+            return reviewStrings.toString();
         }
-        return String.format("Review: %s , %s\n by %s.\n %s star rating.\n", this.movie, this.body, this.author, this.stars);
+        reviewStrings.add(String.format("%s said '%s", this.author, this.body));
+        reviewStrings.add(String.format("%s rates %s, a %d out of 5", this.author, this.movie, this.stars));
+        return reviewStrings.toString();
     }
 }
