@@ -17,7 +17,9 @@ public class TheaterTest {
     @Test
     public void testTheaterConstructorAndToString() {
         assertEquals("toString method is not working", "AMC\n" +
-                "Current Movies showing: ", testTheater.toString());
+                "Current Movies showing: \n" +
+                "Gone in Sixty Seconds\n" +
+                "Titanic", testTheater.toString());
     }
 
     @Before
