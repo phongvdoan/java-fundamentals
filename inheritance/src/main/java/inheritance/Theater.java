@@ -3,14 +3,11 @@ package inheritance;
 import java.util.LinkedList;
 import java.util.StringJoiner;
 
-public class Theater implements ReviewableBuisness {
-    String name;
-    double stars;
+public class Theater extends Store {
     LinkedList<String> currentMovies = new LinkedList<>();
-    LinkedList<Review> allReviews = new LinkedList<>();
 
     public Theater(String name) {
-        this.name = name;
+        super(name, 3);
     }
 
     public void addMovie(String movie){
@@ -23,7 +20,7 @@ public class Theater implements ReviewableBuisness {
 
     public String toString(){
         StringJoiner string = new StringJoiner("\n");
-        string.add(this.name);
+        string.add(this.storeName);
         string.add("Current Movies showing: ");
         for(String movies : currentMovies){
             string.add(movies);
@@ -31,19 +28,4 @@ public class Theater implements ReviewableBuisness {
         return string.toString();
     }
 
-    @Override
-    public void addReview(Review review) {
-        this.allReviews.add(review);
-        calculateAverageReviewStars();
-    }
-
-    @Override
-    public double calculateAverageReviewStars() {
-        double allStars = 0;
-        for(Review review : this.allReviews){
-            allStars += review.stars;
-        }
-        this.stars = allStars/this.allReviews.size();
-        return this.stars;
-    }
 }

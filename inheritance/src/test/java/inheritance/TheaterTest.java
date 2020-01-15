@@ -12,19 +12,19 @@ public class TheaterTest {
     @Before
     public void setUP(){
         testTheater = new Theater("AMC");
+        testTheater.addMovie("Gone in Sixty Seconds");
+        testTheater.addMovie("Titanic");
     }
+
 
     @Test
     public void testTheaterConstructorAndToString() {
         assertEquals("toString method is not working", "AMC\n" +
-                "Current Movies showing: ", testTheater.toString());
+                "Current Movies showing: \n" +
+                "Gone in Sixty Seconds\n" +
+                "Titanic", testTheater.toString());
     }
 
-    @Before
-    public void setUpMovies(){
-        testTheater.addMovie("Gone in Sixty Seconds");
-        testTheater.addMovie("Titanic");
-    }
 
     @Test
     public void testAddMovie_addOne(){
@@ -57,8 +57,8 @@ public class TheaterTest {
 
     @Test
     public void testTheaterClass_addReviewMethod(){
-        Review newTestReview = new Review("It was pretty good", "Mani", 4, testTheater.name, "Batman");
-        Review newTestReviewtwo = new Review("It was good", "Jane", 5, testTheater.name, "Titanic");
+        Review newTestReview = new Review("It was pretty good", "Mani", 4, testTheater.storeName, "Batman");
+        Review newTestReviewtwo = new Review("It was good", "Jane", 5, testTheater.storeName, "Titanic");
 
         testTheater.addReview(newTestReview);
         testTheater.addReview(newTestReviewtwo);

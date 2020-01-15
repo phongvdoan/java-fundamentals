@@ -8,7 +8,7 @@ public class ResturantTest {
     Resturant testResturant;
     @Before
     public void setUp(){
-        testResturant = new Resturant("Mickey D's", 3, 2);
+        testResturant = new Resturant(2 , "Mickey D's", 3);
     }
 
     @Test
@@ -21,8 +21,8 @@ public class ResturantTest {
 
     @Test
     public void testResaurant_AddReviewAndOutputOfToString() {
-        Review newTestReview = new Review("It was pretty good", "Mani", 4, testResturant.name);
-        Review newTestReviewtwo = new Review("It was good", "Jane", 5, testResturant.name);
+        Review newTestReview = new Review("It was pretty good", "Mani", 4, testResturant.storeName);
+        Review newTestReviewtwo = new Review("It was good", "Jane", 5, testResturant.storeName);
         testResturant.addReview(newTestReview);
         testResturant.addReview(newTestReviewtwo);
         assertEquals("new Reviews are not adding to LinkedList of reviews", "Resturant: Mickey D's\n" +
@@ -40,8 +40,8 @@ public class ResturantTest {
 
     @Test
     public void testResaurant_AddReviewsAndGetAverage() {
-        Review newTestReview = new Review("It was pretty good", "Mani", 4, testResturant.name);
-        Review newTestReviewtwo = new Review("It was good", "Jane", 5, testResturant.name);
+        Review newTestReview = new Review("It was pretty good", "Mani", 4, testResturant.storeName);
+        Review newTestReviewtwo = new Review("It was good", "Jane", 5, testResturant.storeName);
         testResturant.addReview(newTestReview);
         testResturant.addReview(newTestReviewtwo);
         double expectedAverage = 4.5;

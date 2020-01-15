@@ -21,8 +21,8 @@ public class ShopTest {
 
     @Test
     public void testShopClass_addReviewMethod(){
-        Review newTestReview = new Review("It was pretty good", "Mani", 4, testShop.name);
-        Review newTestReviewtwo = new Review("It was good", "Jane", 5, testShop.name);
+        Review newTestReview = new Review("It was pretty good", "Mani", 4, testShop.storeName);
+        Review newTestReviewtwo = new Review("It was good", "Jane", 5, testShop.storeName);
 
         testShop.addReview(newTestReview);
         testShop.addReview(newTestReviewtwo);
