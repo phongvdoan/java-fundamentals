@@ -84,7 +84,6 @@ First several labs for Java 401
 
 ```
 
-
 ### Lab 6: Resturant and Reveiw
 [Resturant](inheritance/src/main/java/inheritance/Resturant.java)
 
@@ -112,4 +111,37 @@ First several labs for Java 401
                     └── Review.java
 
                         ├── toString();
+```
+
+### Lab &: Composition and Inheritance
+[Shops](inheritance/src/main/java/inheritance/Shops.java)
+
+[Theater](inheritance/src/main/java/inheritance/Theater.java)
+```
+
+  └── inheritance
+
+    └── src
+
+        └── main
+
+            └── java
+
+                └── inheritance
+
+                    └── Shops.java
+
+                         ├── toString();
+
+                         ├── addReview(Review review);
+
+                         ├── calculateAverageReviewStars();
+
+                    └── Theater.java
+
+                         ├── toString();
+
+                         ├── addReview(Review review);
+
+                         ├── calculateAverageReviewStars();
 ```
