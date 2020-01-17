@@ -113,7 +113,7 @@ First several labs for Java 401
                         ├── toString();
 ```
 
-### Lab &: Composition and Inheritance
+### Lab 7: Composition and Inheritance
 [Shops](inheritance/src/main/java/inheritance/Shops.java)
 
 [Theater](inheritance/src/main/java/inheritance/Theater.java)
